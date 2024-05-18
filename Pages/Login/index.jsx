@@ -32,7 +32,8 @@ export default function Login() {
         <div className="box">
           <div className="box-wrapper">
             <div className="logo">
-              <p className="login-h1">Login</p>
+              <p className="p-text">your logo</p>
+              <p className="login-h1">login</p>
             </div>
             <form className="form" onSubmit={handleSubmit}>
               <div className="email-div">
@@ -57,6 +58,10 @@ export default function Login() {
               <button  className="submit-btn" type="submit">
                 Submit
               </button>
+              <p className="last-text">
+                Don’t have an account yet?{" "}
+                <span className="last-span">Register for free</span>
+              </p>
             </form>
 
             <button type="submit" className="signup-btn">
