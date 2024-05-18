@@ -36,6 +36,9 @@
   line-height: 45.94px;
   margin-bottom: 26px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .email-div {
   display: flex;

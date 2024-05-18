@@ -32,7 +32,7 @@ export default function Login() {
         <div className="box">
           <div className="box-wrapper">
             <div className="logo">
-              <p className="login-h1">login</p>
+              <p className="login-h1">Login</p>
             </div>
             <form className="form" onSubmit={handleSubmit}>
               <div className="email-div">
